@@ -6,11 +6,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '7.0.6'
+gem 'rails', '7.0.7'
 gem 'pg', '1.5.3'
 gem 'puma', '6.3.0'
 gem 'jbuilder', '2.11.5'
-gem 'redis', '5.0.6'
+gem 'redis', '5.0.7'
 gem 'bcrypt', '3.1.19'
 gem 'bootsnap', '1.16.0'
 gem 'image_processing', '1.12.2'
@@ -25,8 +25,8 @@ gem 'omniauth-rails_csrf_protection', '1.0.1'
 gem 'httparty', '0.21.0'
 gem 'sucker_punch', '3.1.0'
 gem 'graphql-client', '0.18.0'
-gem 'zammad_api', '1.1.0'
-gem 'nokogiri', '1.15.3'
+gem 'zammad_api', '1.2.0'
+gem 'nokogiri', '1.15.4'
 
 gem 'kaminari', '1.2.2'
 
@@ -47,14 +47,14 @@ gem 'geckoboard-ruby', '0.4.0'
 gem 'view_component', '3.5.0'
 
 # Talk with Productive API
-gem 'productive', '0.6.70'
+gem 'productive', '0.6.71'
 
 # Present data with charts
 gem "chartkick", "5.0.3"
 gem "groupdate", "6.3.0"
 
 # Collect performance information and catch errors
-gem "appsignal", "3.4.9"
+gem "appsignal", "3.4.10"
 
 group :development, :test do
   gem 'byebug', '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
@@ -75,5 +75,5 @@ group :test do
   gem 'simplecov', '0.22.0'
   gem 'simplecov_json_formatter', '0.1.4'
   gem 'factory_bot', '6.2.1'
-  gem 'faker', '3.2.0'
+  gem 'faker', '3.2.1'
 end
